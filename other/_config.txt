@@ -1,0 +1,55 @@
+# coding: utf-8 #
+
+##############################################
+# -*- general config file -*- #
+##############################################
+
+# BOT`s language | Язык бота 
+
+BotLanguage = "RU"
+
+
+
+#### Connect ####
+
+# Connect port | Порт для подключения (5222 - tcp / 5223, 443 - tls / *)
+
+Port = 5222
+
+# BOT`s JID | JID бота (example: security@securitybot.net)
+
+JID = "security@securitybot.net"
+
+# Password to JID | Пароль к JID 
+
+Password = u"supersecret"
+
+# Resource | Ресурс
+
+Resource = u"simpleApps"
+
+# Register new jid | Регестрировать jid?
+
+Register = False 
+
+# Ebable debug | Включить отладку ("always", [])
+
+Debug = []
+
+# TLS | TLS (True/False)
+
+UseTLS = False
+
+#### Conferences ####
+
+# JIDs of bot`s admins | JID`ы админов бота
+
+Admins = ["simpleadmin@simpleserver.simpledomain"]
+
+# Default conference | Конференция по умолчанию
+
+DefaultConference = u"simpleapps@conference.jabber.ru"
+
+# BOT`s nick | Ник бота
+
+DefaultNick = u"_nothing"
